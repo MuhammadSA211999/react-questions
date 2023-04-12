@@ -1,11 +1,12 @@
-import firebase from '../src/firebase/firbase.config'
+import Home from "./components/Home"
+import app from "./firebase/firbase.config"
 
 function App() {
-  console.log('count1', firebase)
 
   return (
-    <div className="App">
-
+    <div>
+      <h1>LWS QUIZZ APP</h1>
+      <Home></Home>
     </div>
   )
 }
